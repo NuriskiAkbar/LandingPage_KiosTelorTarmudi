@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body .main-container{
+    height: max-content;
+    width: 1000px;
+    margin: auto;
+}
+
+body .main-container main .bannercontainer{
+    width: 100%;
+    height: 500px;
+    background-image: url(assets/banner_bg.jpg);
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+body .main-container main .bannercontainer .bannercontainer-text{
+	margin-left: 20px;
+}
+
+body .main-container main .bannercontainer .bannercontainer-text h5{
+	color: #2B2A2A;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+body .main-container main .bannercontainer .bannercontainer-text h1{
+	color: #FBFBFB;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+body .main-container main .container-menulist {
+	width: 100%;
+}
+
+body .main-container main .container-menulist .menulist{
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body .main-container main .container-menulist .menulist img{
+	width: 100%;
+}
+
+body .main-container main .container-menulist .menulist p, h3{
+	text-align: center;
+}
+
+body .main-container main .container-menulist .menulist  ul li{
+	text-align: center;
+}
+
+body .main-container main .container-menulist .menulist .nama{
+	color: #2B2A2A;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+body .main-container main .container-menulist .menulist .jenis{
+	color: #2b2a2a86;
+}
+
+body .main-container main .container-menulist .menulist .list1, body .main-container main .container-menulist .menulist .list2, body .main-container main .container-menulist .menulist .list3,body .main-container main .container-menulist .menulist .list4, body .main-container main .container-menulist .menulist .list5,
+body .main-container main .container-menulist .menulist .list6{
+	width: 25%;
+	margin: auto;
+	border: 2px solid rgba(137, 43, 226, 0.326);
+	border-radius: 20px;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+}
+
+body .main-container main .container-menulist .list-kosong{
+	clear: left;
+}
+
