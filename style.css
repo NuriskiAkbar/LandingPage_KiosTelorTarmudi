@@ -56,7 +56,7 @@ body .main-container{
 
 body .main-container main .bannercontainer{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     background-image: url(assets/banner_bg.jpg);
     background-size: cover;
 	display: flex;
@@ -81,6 +81,15 @@ body .main-container main .bannercontainer .bannercontainer-text h1{
 
 body .main-container main .container-menulist {
 	width: 100%;
+}
+
+body .main-container main .container-menulist h2{
+	color: #2B2A2A;
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 body .main-container main .container-menulist .menulist{
